@@ -1,0 +1,44 @@
+.attribution {
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+    display: block;
+    position: absolute; bottom: 5px;
+}
+
+body {
+    background-color: #D5E1EF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode {
+    border-radius: 25px;
+    border-color: white;
+    height: 550px;
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+    box-sizing: border-box;
+    /*margin: auto;*/
+    text-align: center;
+    font-family: Arial, Verdana, Tahoma;
+}
+h1 {
+    color: #1D2C49;
+    padding-top: 15px;
+}
+
+p {
+    color: #74737A;
+    font-size: 18px;
+}
+.qr {
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+}
