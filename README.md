@@ -21,15 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot 2023-12-01 at 9.14.39 AM.png](images%2FScreenshot%202023-12-01%20at%209.14.39%E2%80%AFAM.png)
 
 ### Links
 
@@ -38,66 +30,62 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+-I first started messing around with the colors and font sizes to get them all correct. after that I look to push everything into a box like the image given. Once I finally did that, 
+I added the image of the QR code and messed with it for a while to get it close enough to the edge of the box. Took a while messing with flex-box for the first time and brand new to HTML and CSS but man this was so fun!
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Like mentioned earlier, I am brand new to HTML and CSS and just learned about the very basics of it. 
+I learned how styling and how important centering and alignment is. Google was definitely my best friend. Learned FlexBox and man that was a lifesaver really helped me a lot!
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<section class="qrcode">
+  <img class="qr" src="images/image-qr-code.png" height="576" width="576" alt="Qrcode"/>
+  <h1>Improve your front-end <br>skills by building projects</h1>
+
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+</section>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.qrcode {
+  border-radius: 25px;
+  border-color: white;
+  height: 550px;
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px grey;
+  box-sizing: border-box;
+  /*margin: auto;*/
+  text-align: center;
+  font-family: Arial, Verdana, Tahoma;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Since this is my first really project I just want to get more comfortable with both HTML and CSS by practice with both. Learning how to do all the styling more effectively.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Helped me learn how Flexbox worked
+- [W3Schools](https://www.w3schools.com/) - Helped with a lot of styling I did on the page
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [@MSperanza3](https://github.com/MSperanza3/)
+- Frontend Mentor - [@MSperanza3](https://www.frontendmentor.io/profile/MSperanza3)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+And of course couldn't have done this without my instructors at Codeup giving me the resources I needed in order to accomplish this task!
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
